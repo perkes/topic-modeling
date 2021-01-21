@@ -1,0 +1,13 @@
+{
+    "input_doc": "./data/amazon-flir_products_topics.csv",
+    "output_doc": "./data/amazon-flir_products_topics_lda.csv",
+    "input_column": "review",
+    "output_column": "lda_cluster",
+    "topics_number": 4,
+    "topics_n_words": 3,
+    "min_df": 0.01,
+    "max_df": 0.80,
+    "alpha": 0.25,
+    "beta": 0.25,
+    "groupby": "rating"
+}
